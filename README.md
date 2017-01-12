@@ -1,4 +1,5 @@
 ### About
+React starter repo with webpack,babel,tests setup.
 Config and Setup based off tylermcginnis reccomendations
 
 ### IDE Setup
