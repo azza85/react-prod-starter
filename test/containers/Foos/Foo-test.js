@@ -19,6 +19,6 @@ test('my passing test', t => {
 
 test.todo('will think about writing this later');
 
-test.failing('demonstrate some bug', t => {
+test.failing('demonstrate some bugs', t => {
     t.fail(); // test will count as passed
 });

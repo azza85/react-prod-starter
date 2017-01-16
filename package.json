@@ -7,7 +7,7 @@
     "production": "webpack -p",
     "lint": "eslint app/.; exit 0",
     "fix": "eslint --fix app/.; exit 0",
-    "test": "ava --verbose"
+    "test": "ava --verbose --watch"
   },
   "keywords": [],
   "license": "ISC",
