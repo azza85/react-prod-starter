@@ -1,9 +1,15 @@
 import React from 'react'
+import { Nav } from 'components'
 
 const MainContainer = React.createClass({
   render () {
     return (
-      <p>{'Hello World!'}</p>
+      <div>
+        <Nav isAuthed={true} />
+        <div>
+          {this.props.children}
+        </div>
+      </div>
     )
   },
 })
