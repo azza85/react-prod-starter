@@ -1,2 +1,6 @@
 export Home from './Home/Home'
 export Nav from './Nav/Nav'
+export Authenticate from './Authenticate/Authenticate'
+export FacebookAuthButton from './FacebookAuthButton/FacebookAuthButton'
+export Logout from './Logout/Logout'
+export User from './User/User'
